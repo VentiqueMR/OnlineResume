@@ -1,0 +1,536 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.skillstitle {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 3rem;
+  color: white;
+  line-height: 45px;
+  position: absolute;
+  top: 430px;
+  left: 45%;
+}
+.socmed {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: gray;
+}
+.htmlcss {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.adsmark {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.multimediatext {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: gray;
+}
+.eefont {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10%;
+  position: absolute;
+  top: 175px;
+}
+.eefont2 {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10%;
+  position: absolute;
+  top: 175px;
+  width: 175px;
+}
+.sky {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(180deg, #5b7fa2, #84d9ff);
+  position: relative;
+  margin-bottom: 0;
+}
+.sea {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(0deg, #2a718b 35%, #6d9086 75%, #ffd57b 100%);
+  position: relative;
+  margin-top: 0;
+}
+.welcome-board {
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  background-color: Peru;
+  display: inline-block;
+  position: absolute;
+  bottom: 270px;
+  left: 45%;
+  border-radius: 20%;
+}
+.islet {
+  height: 250px;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  right: 70%;
+}
+.about {
+  font-weight: 300;
+  font-size: 1.5625rem;
+  color: lightblue;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.summary {
+  background-color: blanchedalmond;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.contactbg {
+  background-color: peru;
+  width: 150px;
+  height: 50px;
+  border-radius: 20%;
+  position: absolute;
+  display: block;
+  top: 150px;
+  left: 0;
+  right: 0;
+  margin-left: 12%
+}
+.contact {
+  color: navajowhite;
+  text-align: center;
+}
+.contactdetails {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  display: block;
+  top: 110px;
+  left: 0;
+  right: 0;
+  margin-left: -12%;
+}
+.phone-img {
+  width: 50px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 65px;
+}
+.banner {
+  width: 320px;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+.favicon {
+  z-index: 2;
+  width: 200px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circlebg1 {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.circlebg2 {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 250px;
+  right: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rectanglebg {
+  height: 400px;
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  display: block;
+  z-index: 1;
+}
+.rectanglecontent {
+  padding: 30px;
+  width: 200px;
+  height: 400px;
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  display: block;
+  z-index: 2;
+}
+.skills {
+  width: 100%;
+  height: 800px;
+  background-color: powderblue;
+  position: relative;
+}
+.blancheruffle {
+  width: 100%;
+  height: 115px;
+  position: absolute;
+  top: -2%;
+  z-index: 1;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(1px 1px 1px #222);
+}
+.skillsheader {
+  width: 100%;
+  height: 75px;
+  background-color: red;
+  z-index: 2;
+  position: absolute;
+  visibility: hidden;
+}
+.skill1 {
+  background-image: linear-gradient(to bottom, #ffb3c1 0%, #ffb3c1 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 220px;
+  width: 350px;
+  position: absolute;
+  left: 10%;
+  top: 150px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+}
+.pinkruffle {
+  width: 350px;
+}
+.skill1:hover {
+  transform: rotate(5deg);
+}
+.html {
+  margin-top: 5%;
+  margin-left: 32%;
+  margin-bottom: 0;
+  width: 50px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.css {
+  width: 50px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.skill2 {
+  background-image: linear-gradient(to bottom, #cfb0cf 0%, #cfb0cf 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 220px;
+  width: 350px;
+  position: absolute;
+  right: 10%;
+  top: 150px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+}
+.thistleruffle {
+  width: 350px;
+}
+.skill2:hover {
+  transform: rotate(5deg);
+}
+.skill3 {
+  background-image: linear-gradient(to bottom, #cefdce 0%, #cefdce 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 220px;
+  width: 350px;
+  position: absolute;
+  left: 10%;
+  top: 510px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+}
+.palegreenruffle {
+  width: 350px;
+}
+.skill3:hover {
+  transform: rotate(5deg);
+}
+.socmedicon {
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-bottom: 0;
+  width: 50px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.skill4 {
+  background-image: linear-gradient(to bottom, #FFE4B5 0%, #FFE4B5 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 220px;
+  width: 350px;
+  position: absolute;
+  right: 10%;
+  top: 510px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+}
+.lemonchifonruffle {
+  width: 350px;
+}
+.skill4:hover {
+  transform: rotate(5deg);
+}
+.multimedia {
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-bottom: 0;
+  width: 50px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.experience {
+  background-image: radial-gradient(#8B4EC4 20%, #9370DB 20%);
+  background-position: 1800px 0 0 0;
+  background-size: 50px 50px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.violetruffle {
+  width: 100%;
+  height: 115px;
+  position: absolute;
+  top: -2%;
+  z-index: 1;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(1px 1px 1px #222);
+}
+.experiencetitle {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  border-radius: 25%;
+  position: absolute;
+  top: 150px;
+  left: 5%;
+}
+.experiencetitlefont {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: white;
+  line-height: 45px;
+  position: absolute;
+  top: 52px;
+  left: 19px;
+}
+.ee1 {
+  background-image: linear-gradient(to bottom, #865C86 0%, #865C86 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 10%;
+  top: 450px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+  border-radius: 50%
+}
+.ee1:hover {
+  transform: scale(1.10);
+}
+.college {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.ee2 {
+  background-image: linear-gradient(to bottom, #865C86 0%, #865C86 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 30%;
+  top: 250px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+  border-radius: 50%;
+  z-index: 2;
+}
+.ee2:hover {
+  transform: scale(1.10);
+}
+.tw {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.ee3 {
+  background-image: linear-gradient(to bottom, #865C86 0%, #865C86 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 450px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+  border-radius: 50%
+}
+.ee3:hover {
+  transform: scale(1.10);
+}
+.pcm {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.ee4 {
+  background-image: linear-gradient(to bottom, #865C86 0%, #865C86 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 70%;
+  top: 250px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 #2222;
+  border-radius: 50%
+}
+.ee4:hover {
+  transform: scale(1.10);
+}
+.artist {
+  width: 150px;
+  height: auto;
+  position: absolute;
+}
+.arrow1 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 350px;
+  left: 20%;
+}
+.arrow2 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 350px;
+  left: 45%;
+  z-index: 1;
+}
+.arrow3 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 350px;
+  left: 60%;
+}
+#cloud1 {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: -40%;
+  left: 20%;
+}
+#cloud2 {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  right: 25%;
+  top: 35%;
+}
+#MeetClara {
+  text-align: center;
+  color: navajowhite;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  margin-top: 15px;
+}
+#wave1 {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+}
+#wave2 {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  bottom: -50px;
+  z-index: 2;
+}
