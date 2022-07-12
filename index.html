@@ -2,132 +2,235 @@
 <html lang="en" dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
   <title>Clara Ocampo</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="icon" href="assets/favicon.ico">
+
+  <!-- Bootsrap Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheet -->
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/111a4ba134.js" crossorigin="anonymous"></script>
+
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="sky">
-    <img id="cloud1" src="assets/cloud.png" alt="cloud-img">
-    <img id="cloud2" src="assets/cloud.png" alt="cloud-img">
-  </div>
-  <div class="sea">
-    <div class="welcome-board">
-      <img class="islet" src="assets/islet.png" alt="islet-img">
-      <h1 id="MeetClara">Meet Clara</h1>
-    </div>
-    <h3 class="about">That's me: a professional advertiser, hobbyist artist,
-      <br />and student programmer!
-    </h3>
-  </div>
-  <div class="summary">
-    <img id="wave1" src="assets/wave.png" alt="wave-img">
-    <img class="banner" src="assets/banner.png" alt="banner-img">
-    <img class="favicon" src="assets/favicon.png" alt="portrait-img">
-    <div class="circlebg1"></div>
-    <div class="circlebg2"></div>
-    <img class="rectanglebg" src="assets/rectanglebg.png" alt=rectangle-img>
-    <div class="rectanglecontent">
-      <p><strong><center>Summary</center></strong></p>
-      <p>Key Accounts Specialist and Technical Writer with years of successful experience in Search Engine Digital
-        Marketing and Optimization, Social Media Advertising, and Technical Writing.
-      <p>Currently managing social media accounts as a
-        supplement in freelance work as an illustrator and graphic designer.</p>
-      <p>Concurrently studying Computer Science.</p>
-    </div>
-    <div class="contactbg">
-      <h3 class="contact">Contact</h3>
-      <img class="phone-img" src="assets/phone.png" alt="phone-img">
-      <div class="contactdetails">
-        <ul>
-          <li><strong>Phone:</strong>
-            <br>+639568531204
-          </li>
-          <li><strong>E-mail:</strong>
-            <br>cpmocampo@gmail.com
-          </li>
-          <li><strong>Address:</strong>
-            <br>Philippines
-          </li>
-        </ul>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="row sky-background px-0">
+
+      <div class="col-6 text-center">
+        <img src="assets/cloud.png" class="cloud1" />
       </div>
-    </div>
-    <img id="wave2" src="assets/wave.png" alt="wave-img">
-  </div>
-  <div class="skills">
-    <img class="blancheruffle" src="assets/blancheruffle.png" alt="ruffle-border">
-    <div class="skillsheader">
+      <div class="col-6 text-center px-0">
+        <img src="assets/cloud.png" class="cloud2" />
+      </div>
 
     </div>
-    <div class="skill1">
-      <img class="pinkruffle" src="assets/pinkruffle.png" alt="pink-ruffle">
-      <img class="html" src="assets/html.png" alt="html-img">
-      <img class="css" src="assets/css.png" alt="css-img">
-      <h2 class="htmlcss"><center>html & css</center></h2>
+    <div class="row sea-background px-0">
+
+      <div class="welcome-board text-center">
+        <h1 class="meet-clara">Meet Clara</h1>
+        <img src="assets/islet.png" class="islet" />
+      </div>
+      <h3 class="thats-me text-center">That's me: a professional advertiser, hobbyist artist, and student programmer!</h3>
+      <img class="wave-img" src="assets/wave.png" />
+
     </div>
-    <div class="skill2">
-      <img class="thistleruffle" src="assets/thistleruffle.png" alt="thistle-ruffle">
-      <img class="html" src="assets/ads.png" alt="ads-img">
-      <img class="css" src="assets/facebook.png" alt="facebook-img">
-      <h2 class="adsmark"><center>advertising and marketing</center></h2>
+
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="row about-background px-0">
+
+      <div class="col-md-4 text-center px-0">
+        <div class="contact-board d-flex align-items-center justify-content-center">
+          <h3 class="my-0 mx-0">Contact</h3>
+        </div>
+        <div class="contact-info row text-center px-0">
+          <div class="col-xxl-4 phone-box">
+            <i class="fa-solid fa-phone fa-2x"></i>
+            <h3 class="h3-font">Phone</h3>
+            <h5 class="h5-font">+63 9568531204</h5>
+          </div>
+          <div class="col-xxl-4 email-box">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+            <h3 class="h3-font">Email</h3>
+            <h5 class="h5-font">cpmocampo@gmail.com</h5>
+          </div>
+          <div class="col-xxl-4 location-box">
+            <i class="fa-solid fa-house fa-2x"></i>
+            <h3 class="h3-font">Location</h3>
+            <h5 class="h5-font">Sta. Rosa, Laguna</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center px-0">
+        <img class="contact-photo img-fluid" src="assets/contact-photo.png" />
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="summary-box border border-info border-3 row text-left">
+          <h3 class="h3-font text-center">Summary</h3>
+          <h4 class="h4-font"> Key Accounts Specialist and Technical Writer with years of successful experience in Search Engine Digital Marketing and Optimization, Social Media Advertising, and Technical Writing.</h4>
+          <h4 class="h4-font">Currently managing social media accounts as a supplement in freelance work as an illustrator and graphic designer.</h4>
+          <h4 class="h4-font">Concurrently studying Computer Science.</h4>
+        </div>
+      </div>
+
+      <img class="wave-img" src="assets/wave.png" />
     </div>
-    <h1 class="skillstitle">Skills</h1>
-    <div class="skill3">
-      <img class="palegreenruffle" src="assets/palegreenruffle.png" alt="palegreen-ruffle">
-      <img class="socmedicon" src="assets/social-media.png" alt="socmed-img">
-      <h2 class="socmed"><center>social media management</center></h2>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="skills-background row">
+      <img class="section-divider" src="assets/blancheruffle.png" />
+      <div class="col-md-5">
+
+        <div class="skill-1 text-center">
+          <img class="box-ruffle" src="assets/pinkruffle.png" />
+          <div class="skills-container container d-inline-flex justify-content-center">
+            <i class="skills-icons fa-brands fa-html5 fa-3x"></i>
+            <i class="skills-icons fa-brands fa-bootstrap fa-3x"></i>
+          </div>
+          <h2 class="h2-font">HTML5 & Bootstrap</h2>
+
+        </div>
+
+        <div class="skill-2 text-center">
+          <img class="box-ruffle" src="assets/palegreenruffle.png" />
+          <div class="skills-container container d-inline-flex justify-content-center">
+            <i class="skills-icons fa-brands fa-facebook-square fa-3x"></i>
+            <i class="skills-icons fa-brands fa-twitter-square fa-3x"></i>
+            <i class="skills-icons fa-brands fa-instagram-square fa-3x"></i>
+            <i class="skills-icons fa-brands fa-tumblr-square fa-3x"></i>
+            <i class="skills-icons fa-brands fa-youtube fa-3x"></i>
+          </div>
+          <h2 class="h2-font">Social Media Management</h2>
+        </div>
+
+      </div>
+
+      <div class="skills-board col-md-2 d-flex justify-content-center align-items-center">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="col-md-5">
+        <div class="skill-3 text-center">
+          <img class="box-ruffle" src="assets/thistleruffle.png" />
+          <div class="skills-container container d-inline-flex justify-content-center">
+            <i class="skills-icons fa-solid fa-bullseye fa-3x"></i>
+            <i class="skills-icons fa-solid fa-rectangle-ad fa-3x"></i>
+            <i class="skills-icons fa-solid fa-bullhorn fa-3x"></i>
+          </div>
+          <h2 class="h2-font">Advertising and Marketing</h2>
+        </div>
+        <div class="skill-4 text-center">
+          <img class="box-ruffle" src="assets/lemonchifonruffle.png" />
+          <div class="skills-container container d-inline-flex justify-content-center">
+            <i class="fa-solid fa-photo-film fa-3x"></i>
+            <i class="fa-solid fa-music fa-3x"></i>
+          </div>
+          <h2 class="h2-font">Multimedia Production</h2>
+        </div>
+      </div>
+
     </div>
-    <div class="skill4">
-      <img class="lemonchifonruffle" src="assets/lemonchifonruffle.png" alt="lemonchifon-ruffle">
-      <img class="multimedia" src="assets/multimedia.png" alt="multimedia-img">
-      <h2 class="multimediatext"><center>multimedia production</center></h2>
+
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+
+    <div class="experience-background">
+      <img class="section-divider-2" src="assets/violetruffle.png" />
+      <div class="experience-board">
+        <h1 class="education-and-experience-font">Education <br /> and <br /> Experience</h1>
+      </div>
+
+      <div class="row experience-container">
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="assets/graduation-hat.png" />
+            <div class="card-body">
+              <h3 class="card-title h3-font">B. Multimedia Arts</h3>
+              <ul>
+                <li class="li-font">Malayan Colleges Laguna</li>
+                <li class="li-font">A.Y. 2014-2018</li>
+                <li class="li-font">Summa Cum Laude</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="assets/writer.png" />
+            <div class="card-body">
+              <h3 class="card-title h3-font">Technical Writer</h3>
+              <ul>
+                <li class="li-font">QL Pty Ltd</li>
+                <li class="li-font">July 2018 to April 2019</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="assets/bullhorn.png" />
+            <div class="card-body">
+              <h3 class="card-title h3-font">Key Accounts Paid Campaign Manager</h3>
+              <ul>
+                <li class="li-font">QL Pty Ltd</li>
+                <li class="li-font">April 2019 to March 2021</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="assets/kiro-3d-img.jfif" />
+            <div class="card-body">
+              <h3 class="card-title h3-font">Social Media Manager</h3>
+              <h3 class="card-title h3-font">Multimedia Artist</h3>
+              <ul>
+                <li class="li-font">March 2021 to Present</li>
+                <li class="li-font">Freelance Illustration</li>
+                <li class="li-font">Graphic Design</li>
+                <li class="li-font">3D Modeling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
-  </div>
-  <div class="experience">
-    <img class="violetruffle" src="assets/violetruffle.png" alt="violet-ruffle">
-    <div class="experiencetitle"><h1 class="experiencetitlefont"><center>Education <br/> & Experience</center></h1></div>
-    <div class="ee1">
-      <img class="college" src="assets/graduation-hat.png" alt="graduation-hat">
-      <p class="eefont"><em>Malayan Colleges Laguna</em>
-        <br>A.Y. 2014-2018
-        <br><strong>B. Multimedia Arts</strong>
-        <br>Summa Cum Laude</p>
-    </div>
-    <div class="ee2">
-      <img class="tw" src="assets/writer.png" alt="writer-img">
-      <p class="eefont"><strong>Technical Writer</strong>
-        <br><em>QL Pty Ltd</em>
-        <br>July 2018
-        <br>to April 2019</p>
-    </div>
-    <div class="ee3">
-      <img class="pcm" src="assets/bullhorn.png" alt="bullhorn-img">
-      <p class="eefont"><strong>Key Accounts Paid Campaign Manager</strong>
-        <br><em>QL Pty Ltd</em>
-        <br>April 2019
-        <br>to March 2021</p>
-    </div>
-    <div class="ee4">
-      <img class="artist" src="assets/zhongli.png" alt="zhongli-img">
-      <p class="eefont2">
-        <strong>
-          <br>•Social Media Manager
-          <br>•Freelance Illustrator
-          <br>•Graphic Designer
-          <br>•3D Artist
-        </strong>
-        <br>March 2021 to Present
-      </p>
-    </div>
-    <img class="arrow1"src="assets/arrow-up.png" alt="up-arrow">
-    <img class="arrow2"src="assets/down-arrow.png" alt="up-arrow">
-    <img class="arrow3"src="assets/arrow-up.png" alt="up-arrow">
-  </div>
+
+  </section>
+
+
+
 </body>
 
 </html>
